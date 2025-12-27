@@ -15,7 +15,7 @@ header{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
 }
-h1{
+.hedin{
     margin: 20px;
     font-size: 24px;
 }
@@ -57,7 +57,7 @@ li{
     justify-content:space-around;
     font-size: 14px;
 }
- button{
+ .but{
     color: #fff;
     background-color: #96BB7C;
     margin-left: 50px;
@@ -66,4 +66,143 @@ li{
     border: none;
     
 }
+
+.hero-text{
+    /* text-align: center; */
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.join{
+    color: #96BB7C;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+}    
+
+
+
+.hero-text h1{
+   
+  
+   font-size: 40px;
+   margin-top: 35px;
+   margin-right: 190px;
+   flex-direction: column;
+   gap: 20px;
+
+}
+.hero-text p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #737373;
+    margin-left: 0px;
+    margin-top: 35px;
+}
+/* 
+.hero-text button{
+    margin-top: 30px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    size: 20px;
+    padding: 0px;
+} */
+ .hero-text .button{
     
+    padding: 15px 25px;
+    border-radius: 5px;
+    /* border: none; */
+    font-size: 16px;
+    /* font-weight: bold; */
+    /* cursor: pointer; */
+    /* size: 20px; */
+    
+    
+    background-color: #96BB7C;
+    color: #fff;
+    gap: 15px;
+    margin-left: 0px;
+    margin-top: 35px;
+ }
+    .hero-text .button2{
+        
+        padding: 15px 25px;
+        border-radius: 5px;
+        /* border: 2px solid #96BB7C; */
+        /* font-size: 16px; */
+        color: #96BB7C;
+        background-color: #fff;
+        gap: 15px;
+        margin-left: 10px;
+        margin-top: 35px;
+    }
+    .sec-butt{
+        display: flex;
+        gap: 15px;
+    }
+    .hero-text img{
+        height: 560px;
+        width: 500px;
+        margin-top: -96px;
+        margin-left: 400px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .card{
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        /* border-radius: 10px; */
+        background-color: #fff;
+        margin-top: 50px;
+        width: 248px;
+        height: 298px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .direct{
+        display: flex;
+        gap: 30px;
+        justify-content: space-evenly;
+
+       
+    }
+    .circle{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #E74040;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 35px;
+        
+      
+        
+    }
+    .card h2{
+        font-size: 20px;
+        margin-bottom: 15px;
+        font-weight: 600;
+        color: #252B42;
+
+    }
+
+    .line {
+        color:#E74040;
+        margin-bottom: 20px;
+    }
+    .card p{
+        font-size: 14px;
+        color: #737373;
+        font-weight: 400px;
+        letter-spacing: 0.2px;
+    }
