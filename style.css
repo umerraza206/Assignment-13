@@ -284,3 +284,34 @@ li{
     color: #96BB7C;
     margin-left: 0px;
 }
+
+
+/* card section */
+
+#cards-section{
+    padding-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: #FFF2F3;
+}
+ .card-head{
+    flex-direction: column;
+    text-align: left;
+    
+ }
+ .card-head h6{
+    color: #96BB7C;
+    font-weight: bold;
+    margin-bottom: 15px;
+ }
+ .card-head h2{
+    font-size: 40px;
+    color: #252B42;
+    margin-bottom: 20px;
+ }
+ .card-head p{
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 80px;
+    width: 50%;
+ }
