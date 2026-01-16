@@ -23,8 +23,8 @@ header{
     width: 80%;
     margin: auto;
     display: flex;
-    /* justify-content: space-between; */
-    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .direct-2{
         display: flex;
@@ -290,9 +290,11 @@ li{
 
 #cards-section{
     padding-top: 150px;
-    margin-bottom: 100px;
     text-align: center;
     background-color: #FFF2F3;
+    height: 1156px;
+    display: flex;
+    flex-direction: column;
 }
  .card-head{
     flex-direction: column;
@@ -315,3 +317,119 @@ li{
     margin-bottom: 80px;
     width: 50%;
  }
+ #card-handle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .card-img img{
+    width: 300px;
+ }
+ .card-design{
+    position: relative;
+    background-color: #fff;
+    width: 300px ;
+    display: inline-block;
+    
+ }
+   .div1{
+    position: absolute;
+
+
+  }
+  .set{
+    top: 15px;
+    left: 15px;
+    padding: 2px 8px;
+    background-color: #E74040;
+    border-radius: 3px;
+    color: #fff;
+  }
+  .icon1{
+    top: 220px;   
+    background-color: #FFFFFF;
+    left: 95px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+  .icon2{
+    top: 220px;
+    right: 47%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+  }
+.icon3{
+    top: 220px;
+    right: 104px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 30px;
+    padding: 5px;
+    height: 30px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.card-text{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.card-text a {
+    color: #96BB7C;
+    text-decoration: none;
+    width: 280px;
+}
+
+.card-text span h5 {
+    color: #252B42;
+    margin-top: 11px;
+}
+.card-text p{
+    margin-top: 10px;
+    width: 220px;
+    height: 60px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.card-text a ~ h5{
+    background-color: #96bb7c;
+    
+}
+.card-text h6{
+    color: #737373;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+.card-text div{
+    display: flex;
+    column-gap: 5px;
+    margin-top: 15px;
+}
+     
+.card-text div h5{
+    color: #BDBDBD;
+}
+.card-text div span{
+    color: #FFAB71;
+    font-size: 13px;
+}
+
+.card-text button {
+    width: 140px;
+    height: 44px;
+    border-radius: 37px;
+    border: solid 1px #96BB7C;
+    background-color: #FFFFFF;
+    color: #96BB7C;
+    margin: 10px 0px;
+}
