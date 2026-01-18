@@ -523,7 +523,7 @@ li{
 
 #team-main{
     display: flex;
-    gap: 30px;
+    gap: 60px;
 }
 
 .team-maker{
@@ -555,3 +555,57 @@ li{
     margin-top: 12px;
     margin-bottom: 152px;
 }
+
+/* email section */
+
+
+#email-section{
+   text-align: center;
+   padding: 250px 0px;
+}
+.email-input{
+    flex-direction: column;
+}
+.email-input h6{
+    color: #96BB7C;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+.email-input h3{
+    color: #252B42;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.email-input p{
+    color: #737373;
+    font-size: 14px;
+    width: 28%;
+    margin: auto;
+    margin-bottom: 80px;
+    font-size: 1rem;
+}
+.email-input input[type="email"]{
+    padding: 15px 25px;
+    border: none;
+    background-color: #c0c0c0;
+    font-size: 16px;
+    max-width: 600px;
+    max-height: 70px;
+    width: 100%;
+    height: 100%;
+    margin-right: -5px;
+}
+.email-input button{
+    padding: 15px 25px;
+    border: none;
+    font-size: 16px;
+    background-color: #96BB7C;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+
+
+
+
