@@ -606,6 +606,76 @@ li{
 }
 
 
+/* footer */
+
+.footer-maker{
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+}
+.footer-maker > div:not(.footer-part) {
+    padding-bottom: 62px;
+    padding-top: 0;
+    width: 150px;
+
+}
+.footer-maker ul{
+    display: flex;
+    flex-direction: column;
+} 
+.footer-maker h5 {
+    color: #252B42;
+    font-size: rem;
+    font-weight: 700;
+}
+.footer-maker a{
+    color: #737373;
+}
+.footer-part{
+    width: 200px;
+    margin: 32px;
+}
+.footer-part > div {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.footer-part > div h6{
+    font-size: 14px;
+    font-weight: 700;
+    color: #737373;
+    margin-left: 10px;
+}
+.footer-part img:not(:first-child,:last-child){
+    width: 30px;
+    height: 30px;
+    text-align: center
+}
+
+#footer-section{
+    background-color: #f3f3f3;
+}       
+.last-section div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.last-section div h6{
+    margin-left: 0px;
+    color: #737373;
+    font-size: 14px;
+}
+.last-section div figure img:first-child{
+    padding-left: 410px;
+
+}
+.last-section div figure img{
+    padding: 10px;
+}
+
+
 
 
 
