@@ -617,7 +617,7 @@ li{
 .footer-maker > div:not(.footer-part) {
     padding-bottom: 62px;
     padding-top: 0;
-    width: 150px;
+    width: 200px;
 
 }
 .footer-maker ul{
@@ -626,19 +626,22 @@ li{
 } 
 .footer-maker h5 {
     color: #252B42;
-    font-size: rem;
     font-weight: 700;
 }
-.footer-maker a{
+.footer-maker > div a{
     color: #737373;
+    text-decoration: none;
 }
 .footer-part{
-    width: 200px;
+    width: 250px;
     margin: 32px;
+    margin-left: 30px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
 }
 .footer-part > div {
     display: flex;
-    margin-top: 20px;
+    margin-top: 25px;
     align-items: center;
 }
 .footer-part > div h6{
@@ -648,8 +651,8 @@ li{
     margin-left: 10px;
 }
 .footer-part img:not(:first-child,:last-child){
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
     text-align: center
 }
 
@@ -663,19 +666,13 @@ li{
     margin: 20px;
 }
 .last-section div h6{
-    margin-left: 0px;
     color: #737373;
     font-size: 14px;
 }
 .last-section div figure img:first-child{
-    padding-left: 410px;
+    padding-left: 510px;
 
 }
 .last-section div figure img{
     padding: 10px;
 }
-
-
-
-
-
